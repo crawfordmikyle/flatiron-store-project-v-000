@@ -10,7 +10,7 @@ class CartsController < ApplicationController
     current_user.current_cart = nil
     current_user.save
 
-    redirect_to cart_path(cart)
+    redirect_to '/'
   end
 
 end
